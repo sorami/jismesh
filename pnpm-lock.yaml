@@ -4,6 +4,9 @@ dependencies:
   '@unocss/reset':
     specifier: ^0.53.5
     version: 0.53.5
+  jismesh-js:
+    specifier: ^0.2.0
+    version: 0.2.0
   maplibre-gl:
     specifier: ^3.2.0
     version: 3.2.0
@@ -15,6 +18,9 @@ devDependencies:
   '@sveltejs/kit':
     specifier: ^1.20.4
     version: 1.22.3(svelte@4.0.5)(vite@4.4.4)
+  '@types/geojson':
+    specifier: ^7946.0.10
+    version: 7946.0.10
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.45.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@5.1.6)
@@ -556,7 +562,6 @@ packages:
 
   /@types/geojson@7946.0.10:
     resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
-    dev: false
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
@@ -1686,6 +1691,10 @@ packages:
   /isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /jismesh-js@0.2.0:
+    resolution: {integrity: sha512-Cdsekn6BFKROPasiEonIR+1dynOFerSstWnM4V6YhWV1XXWPgbN2HZ1Y/u5AQvzXIp75UO0cbUpofo9SYcKJlg==}
     dev: false
 
   /jiti@1.19.1:
